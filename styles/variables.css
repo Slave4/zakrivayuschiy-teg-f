@@ -1,1 +1,26 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+  --accent-font: "PressStart2P";
+  --main-font: "Inter-Variable", sans-serif;
+  --title-weight: 715;
+  --text-weight: 410;
+  --font-size: 18px;
+  --header-title-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+  --header-subtitle-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+  --color: #000;
+  --background-image: repeating-linear-gradient(180deg,
+      #d3d3d3 0 2px,
+      rgb(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px,
+      rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --card-width: clamp(23.4375rem, 100%, 43.75rem);
+  --fond-size-label: 14px;
+  --shadow-color: #FFFFFF;
+  --time_step: 0.3s;
+  --contour-color: black;
+  --sparks-color: red;
+
+
+}
